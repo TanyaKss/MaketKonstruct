@@ -1,0 +1,217 @@
+/* bebas-neue-regular - latin */
+@font-face {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/BebasNeue/bebas-neue-v2-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/BebasNeue/bebas-neue-v2-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/BebasNeue/bebas-neue-v2-latin-regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/BebasNeue/bebas-neue-v2-latin-regular.woff") format("woff"),
+    /* Modern Browsers */
+      url("../fonts/BebasNeue/bebas-neue-v2-latin-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/BebasNeue/bebas-neue-v2-latin-regular.svg#BebasNeue")
+      format("svg"); /* Legacy iOS */
+}
+/* open-sans-regular - latin */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/OpenSans/open-sans-v20-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/OpenSans/open-sans-v20-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/OpenSans/open-sans-v20-latin-regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/OpenSans/open-sans-v20-latin-regular.woff") format("woff"),
+    /* Modern Browsers */
+      url("../fonts/OpenSans/open-sans-v20-latin-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/OpenSans/open-sans-v20-latin-regular.svg#OpenSans")
+      format("svg"); /* Legacy iOS */
+}
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  font-family: "Open Sans";
+  font-style: normal;
+  margin: 0 auto;
+  position: relative;
+  height: 2810px;
+  width: 1440px;
+}
+.header {
+  position: absolute;
+  margin: 0 auto;
+  width: 1440px;
+  height: 768px;
+  background-image: url(../img/svg/bg.svg);
+}
+.header__wrapper {
+  position: relative;
+  width: 100%;
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 41px 0 71px 0;
+}
+.header__logo {
+  height: 23px;
+  width: 101px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.title__konstruct {
+  color: white;
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-size: 60px;
+  letter-spacing: 5.71px;
+  text-align: center;
+}
+.title__discription {
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600px;
+}
+.header__scroll {
+  color: white;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 5.71px;
+}
+.header__bar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 250px;
+  border-bottom: 2px solid #E6E6E6;
+}
+.navigation__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.header__item {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 80px;
+}
+.header__link {
+  text-decoration: none;
+  color: #48555B;
+  font-weight: 600;
+  font-size: 12px;
+}
+.header__item:last-child {
+  margin-right: 0;
+}
+.bar__logo {
+  height: 18px;
+  width: 79px;
+}
+.header__link-about {
+  text-decoration: none;
+  color: #00A4E5;
+  font-weight: 700;
+  font-size: 12px;
+}
+.about {
+  position: relative;
+  height: 344px;
+  width: 941px;
+  margin: 58px 250px 118px;
+  color: #48555B;
+}
+.about__title {
+  position: relative;
+  font-size: 18px;
+  letter-spacing: 2.30625px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 25px;
+}
+.about__line{
+  position: relative;
+  width: 50px;
+  border-bottom: 2px solid #00A4E5;
+  margin: 10px auto 0;
+}
+.about__deliver, .about__manage, .about__plan {
+  height: 224px;
+  width: 140px;
+  background-image: url(../img/svg/we_build.svg);
+  color: white;
+  font-weight: 800;
+  letter-spacing: 0.19px;
+  font-size: 24px;
+  line-height: 29px;
+}
+.deliver__text {
+  height: 58px;
+  width: 76px;
+}
+.about__manage  {
+  background-image: url(../img/svg/we_manage.svg);
+  margin-right: 19px;
+}
+.manage__text {
+  height: 58px;
+  width: 110px;
+}
+.about__plan {
+  background-image: url(../img/svg/we_plan.svg);
+  margin-right: 19px;
+}
+.plan__text {
+  height: 58px;
+  width: 68px;
+}
+.colortext {
+  color: #16ACE8;
+}
+.flexbox__deliver {
+  display: flex;
+  margin: 80px auto;
+  align-items: flex-end;
+}
+.about__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-right: 77px;
+}
+.about__title-text {
+  height: 81px;
+  width: 405px;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 0.1875px;
+}
+.about__discription-text{
+  height: 115px;
+  width: 405px;
+  font-size: 13px;
+  line-height: 23px;
+  letter-spacing: 0.1875px;
+  margin-top: 30px;
+}
