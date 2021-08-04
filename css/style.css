@@ -316,6 +316,7 @@ body {
   color: #ffffff;
   background-color: #00a4e5;
   border: none;
+  font-weight: bold;
 }
 .button__services:hover {
   background-color: #62c8f0;
@@ -358,7 +359,7 @@ body {
 .get-in-touch {
   background-image: url(../img/svg/bg_footer.svg);
   width: 1440px;
-  height: 499px;
+  height: 498px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -372,4 +373,30 @@ body {
   width: 350px;
   text-align: center;
   margin-bottom: 35px;
+}
+.newsletter {
+  width: 1440px;
+  height: 100px;
+  background-color: #171819;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.newsletter__title {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: 0.846154px;
+  margin-right: 70px;
+}
+.newsletter__email {
+  width: 250px;
+  height: 40px;
+  font-size: 14px;
+  line-height: 19px;
+  color: #48555b;
+  padding-left: 16px;
+  border: 1px solid #979797;
+  border-right: none;
 }
