@@ -38,6 +38,63 @@
       url("../fonts/OpenSans/open-sans-v20-latin-regular.svg#OpenSans")
       format("svg"); /* Legacy iOS */
 }
+/* open-sans-600 - latin */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/OpenSans/open-sans-v20-latin-600.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/OpenSans/open-sans-v20-latin-600.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/OpenSans/open-sans-v20-latin-600.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/OpenSans/open-sans-v20-latin-600.woff") format("woff"),
+    /* Modern Browsers */ url("../fonts/OpenSans/open-sans-v20-latin-600.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/OpenSans/open-sans-v20-latin-600.svg#OpenSans")
+      format("svg"); /* Legacy iOS */
+}
+/* open-sans-700 - latin */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/OpenSans/open-sans-v20-latin-700.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/OpenSans/open-sans-v20-latin-700.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/OpenSans/open-sans-v20-latin-700.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/OpenSans/open-sans-v20-latin-700.woff") format("woff"),
+    /* Modern Browsers */ url("../fonts/OpenSans/open-sans-v20-latin-700.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/OpenSans/open-sans-v20-latin-700.svg#OpenSans")
+      format("svg"); /* Legacy iOS */
+}
+/* open-sans-800 - latin */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/OpenSans/open-sans-v20-latin-800.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/OpenSans/open-sans-v20-latin-800.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/OpenSans/open-sans-v20-latin-800.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/OpenSans/open-sans-v20-latin-800.woff") format("woff"),
+    /* Modern Browsers */ url("../fonts/OpenSans/open-sans-v20-latin-800.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/OpenSans/open-sans-v20-latin-800.svg#OpenSans")
+      format("svg"); /* Legacy iOS */
+}
 html {
   box-sizing: border-box;
 }
@@ -49,6 +106,7 @@ html {
 body {
   font-family: "Open Sans";
   font-style: normal;
+  color: #48555b;
   margin: 0 auto;
   position: relative;
   height: 2810px;
@@ -77,7 +135,7 @@ body {
   margin-right: auto;
 }
 .title__konstruct {
-  color: white;
+  color: #ffffff;
   font-family: "Bebas Neue";
   font-style: normal;
   font-size: 60px;
@@ -85,13 +143,13 @@ body {
   text-align: center;
 }
 .title__discription {
-  color: white;
+  color: #ffffff;
   text-align: center;
   font-size: 16px;
   font-weight: 600px;
 }
 .header__scroll {
-  color: white;
+  color: #ffffff;
   text-align: center;
   font-size: 11px;
   font-weight: 600;
@@ -104,7 +162,7 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 24px 250px;
-  border-bottom: 2px solid #E6E6E6;
+  border-bottom: 2px solid #e6e6e6;
 }
 .navigation__list {
   display: flex;
@@ -117,9 +175,9 @@ body {
 }
 .header__link {
   text-decoration: none;
-  color: #48555B;
   font-weight: 600;
   font-size: 12px;
+  color: #48555b;
 }
 .header__item:last-child {
   margin-right: 0;
@@ -130,7 +188,7 @@ body {
 }
 .header__link-about {
   text-decoration: none;
-  color: #00A4E5;
+  color: #00a4e5;
   font-weight: 700;
   font-size: 12px;
 }
@@ -139,7 +197,7 @@ body {
   height: 344px;
   width: 941px;
   margin: 58px 250px 118px;
-  color: #48555B;
+  overflow: hidden;
 }
 .about__title {
   position: relative;
@@ -149,33 +207,40 @@ body {
   text-align: center;
   line-height: 25px;
 }
-.about__line{
+.about__line {
   position: relative;
   width: 50px;
-  border-bottom: 2px solid #00A4E5;
+  border-bottom: 2px solid #00a4e5;
   margin: 10px auto 0;
 }
-.about__deliver, .about__manage, .about__plan {
+.about__deliver,
+.about__manage,
+.about__plan {
   height: 224px;
   width: 140px;
   background-image: url(../img/svg/we_build.svg);
-  color: white;
+  color: #ffffff;
   font-weight: 800;
   letter-spacing: 0.19px;
   font-size: 24px;
   line-height: 29px;
+  margin-top: 4px;
 }
 .deliver__text {
   height: 58px;
   width: 76px;
+  margin-top: 15px;
+  margin-left: 14px;
 }
-.about__manage  {
+.about__manage {
   background-image: url(../img/svg/we_manage.svg);
   margin-right: 19px;
 }
 .manage__text {
   height: 58px;
   width: 110px;
+  margin-top: 15px;
+  margin-left: 14px;
 }
 .about__plan {
   background-image: url(../img/svg/we_plan.svg);
@@ -184,13 +249,15 @@ body {
 .plan__text {
   height: 58px;
   width: 68px;
+  margin-top: 15px;
+  margin-left: 14px;
 }
 .colortext {
-  color: #16ACE8;
+  color: #16ace8;
 }
 .flexbox__deliver {
   display: flex;
-  margin: 80px auto;
+  margin: 70px auto;
   align-items: flex-end;
 }
 .about__text {
@@ -202,16 +269,89 @@ body {
 .about__title-text {
   height: 81px;
   width: 405px;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 20px;
   line-height: 27px;
   letter-spacing: 0.1875px;
+  margin-bottom: 60px;
 }
-.about__discription-text{
+.about__discription-text {
   height: 115px;
   width: 405px;
   font-size: 13px;
   line-height: 23px;
   letter-spacing: 0.1875px;
-  margin-top: 30px;
+}
+.services {
+  height: 446px;
+  width: 940px;
+  margin: 0 auto;
+}
+.services__header {
+  display: flex;
+  justify-content: space-between;
+}
+.services__title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  width: 198px;
+}
+.services__line {
+  position: relative;
+  width: 50px;
+  border-bottom: 2px solid #00a4e5;
+}
+.services__discription {
+  width: 405px;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 19px;
+  letter-spacing: 0.2px;
+  margin-left: 120px;
+}
+.button__services {
+  width: 150px;
+  height: 40px;
+  color: #ffffff;
+  background-color: #00a4e5;
+  border: none;
+}
+.button__services:hover {
+  background-color: #62c8f0;
+}
+
+.services__enum {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+.enum__item {
+  border: 1px solid #e6e6e6;
+  width: 295px;
+  height: 330px;
+}
+.item__title {
+  width: 250px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.426667px;
+  margin-top: 25px;
+  margin-left: 23px;
+  margin-right: 22px;
+}
+.item__discription {
+  font-size: 13px;
+  line-height: 23px;
+  letter-spacing: 0.1875px;
+  margin-top: 13px;
+  margin-left: 23px;
+  margin-right: 23px;
+}
+.item__img {
+  margin-top: 38px;
+  margin-left: 23px;
+  max-width: 70px;
+  height: 75px;
 }
