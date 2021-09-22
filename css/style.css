@@ -97,6 +97,8 @@
 }
 html {
   box-sizing: border-box;
+  /* height: max-content;
+  width: max-content; */
 }
 *,
 *::before,
@@ -109,7 +111,7 @@ body {
   color: #48555b;
   margin: 0 auto;
   position: relative;
-  height: 2810px;
+  height: 2840px;
   width: 1440px;
 }
 .header {
@@ -149,8 +151,11 @@ body {
   font-weight: 600px;
 }
 .header__scroll {
-  color: #ffffff;
   text-align: center;
+}
+.link__scroll{
+  text-decoration: none;
+  color: #ffffff;
   font-size: 11px;
   font-weight: 600;
   letter-spacing: 5.71px;
@@ -317,6 +322,7 @@ body {
   background-color: #00a4e5;
   border: none;
   font-weight: bold;
+  cursor: pointer;
 }
 .button__services:hover {
   background-color: #62c8f0;
@@ -376,7 +382,7 @@ body {
 }
 .newsletter {
   width: 1440px;
-  height: 100px;
+  height: 99px;
   background-color: #171819;
   display: flex;
   justify-content: center;
@@ -399,4 +405,94 @@ body {
   padding-left: 16px;
   border: 1px solid #979797;
   border-right: none;
+}
+.footer {
+  width: 1440px;
+  height: 240px;
+  background-color: #141a20;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+.footer__company {
+  width: 250px;
+  height: 148px;
+  margin-right: 71px;
+}
+.footer__links {
+  width: 262px;
+  height: 150px;
+  margin-right: 58px;
+}
+.footer__contact {
+  width: 141px;
+  height: 158px;
+  margin-right: 46px;
+  font-size: 11px;
+}
+
+.footer__socials {
+  width: 87px;
+  height:90px;
+  display: flex;
+  justify-content: space-between;
+}
+.company__title {
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 0.846154px;
+  margin-bottom: 19px;
+}
+.company_discription {
+  width: 250px;
+  height: 76px;
+  font-size: 11px;
+  line-height: 19px;
+  letter-spacing: 0.85px;
+  margin-top: 15px;
+}
+.footer__links {
+  font-size: 11px;
+  line-height: 15px;
+}
+.footer__links__wrapper {
+  display: flex;
+  margin-top: 5px;
+  width: 262px;
+}
+.footer__links__wrapper__list {
+  padding: 0;
+  max-width:87px;
+  margin-bottom: 0;
+}
+.footer__link{
+  text-decoration: none;
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 25px;
+}
+.contact__head{
+  margin-bottom: 19px;
+}
+.footer__contact__location{
+  line-height: 16px;
+  letter-spacing: 0.846154px;
+  align-items: center;
+  margin-bottom: 11px;
+}
+.footer__logo {
+  max-height: 13px;
+  max-width: 13px;
+}
+.copyright{
+  width: 1440px;
+  height: 59px;
+  background-color: #171819;
+  color: #FFFFFF;
+  text-align: center;
+  padding-top: 25px;
+  font-size: 11px;
+  line-height: 15px;
 }
